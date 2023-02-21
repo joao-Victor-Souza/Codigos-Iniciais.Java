@@ -1,0 +1,5 @@
+Mais um cógido super simples, um calculo no terminal usando If Else para analisar se o usuário é maior ou menor de idade.
+
+Não sei se vou abandonar ou refazer, estou na dúvida, por enquanto está aqui.
+
+Esse e outros projetos muito parecidos estão aqui apenas para treinamento, e por pedido do professor do curso.

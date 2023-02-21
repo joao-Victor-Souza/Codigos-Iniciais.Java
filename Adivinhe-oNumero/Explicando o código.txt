@@ -1,0 +1,13 @@
+Um código simples, que usa algumas funções como Math.random  para gerar números aleatórios.
+
+Como os números gerados têm vírgula usei Math.round para arredondar e torná-los números inteiros.
+
+Além disso para facilitar no uso do operador ternário coloquei as frases antes e apenas puxei seu respectivo "nome", isso deixa as linhas mais limpas.
+
+O uso do <html> e <\html> é apenas para formatar a linha sem que eu precise me preoculpar com isso.
+
+As imagens estão bastante feias, pois era apenas uma versão inicial.
+Assim que tiver um tempo vou voltar nesse projeto e melhorá-lo como um todo.
+
+
+No geral é isso, apenas um jogo símples para testar algumas ferramentas que aprendi recentemente.

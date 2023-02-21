@@ -8,27 +8,28 @@ public class EstudoDeCaso01 {
 
   
     public static void main(String[] args) {
-     Scanner teclado = new Scanner(System.in);
-    
+        //Importei a função Scanner para poder interagir com o usuário.
+        Scanner teclado = new Scanner(System.in);
+     //Recebendo e armazenando o nome do usuário.   
      System.out.print("Digite o seu nome: ");
      String nome = teclado.nextLine();
-     
+     //Recebendo e armazenando o Sobrenome do usuário.
      System.out.print("Digite seu sobrenome: ");
      String sobrenome = teclado.nextLine();
-    
-      System.out.print("Digite onde trabalha: ");
+     //Recebendo e armazenando o local de trabalho do usuário.
+     System.out.print("Digite onde trabalha: ");
      String localTrab = teclado.nextLine();
-     
+     //Recebendo e armazenando ano em que o usuário nasceu.
      System.out.print("Digite o seu ano de nascimento: ");
-     Float nasceu = teclado.nextFloat();
-     
+     float nasceu = teclado.nextFloat();
+     //Recebendo e armazenando idade do usuário.
      System.out.print("Digite a sua idade: ");
-     Float idade = teclado.nextFloat();
-     
+     float idade = teclado.nextFloat();
+     //Recebendo e armazenando Salário do usuário
      System.out.print("Digite quanto ganha: ");
      float ganho = teclado.nextFloat();
      
-          
+     //Imprimindo no terminal as informações fornecidas pelo usuário     
      System.out.println();
      
      System.out.format("\n O nome digitado foi: %S  ",nome);

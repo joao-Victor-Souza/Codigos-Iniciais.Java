@@ -1,0 +1,3 @@
+Outro cógido simples, esse é focado em tirar a média entre 2 notas, mas pode ser qualquer valor.
+
+Provavelmente vou refazer todo do zero para servir como um programa simples para tirar média entre 2 ou mais números.

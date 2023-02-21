@@ -1,0 +1,1 @@
+A primeira versão de uma calculadora completa, vai melhorar e muito futuramente.

@@ -1,0 +1,3 @@
+Um código rápido apenas para pegar a data e hora do sistema.
+
+Será fundido a outros programas futuramente.

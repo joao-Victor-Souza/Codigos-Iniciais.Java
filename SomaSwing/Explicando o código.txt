@@ -1,0 +1,3 @@
+Uma tela que você usa para somar 2 números.
+
+Será absorvida pela mega calculadora futuramente.

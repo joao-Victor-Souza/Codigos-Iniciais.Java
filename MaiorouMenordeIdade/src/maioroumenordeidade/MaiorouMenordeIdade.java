@@ -17,6 +17,7 @@ public class MaiorouMenordeIdade {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+      
         //Função Scanner para ter interação com o usuário.
         Scanner teclado = new Scanner(System.in);
         //Pedindo o ano de nascimento dele(a).

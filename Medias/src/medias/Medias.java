@@ -17,9 +17,10 @@ public class Medias {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+      
         //Adicionei a função Scanner para poder receber informações do usuário.
         Scanner teclado = new Scanner(System.in);
-        //Pedindo ao usuário o valor d aprimeira nota, usei Float pq pode vir um número com vírgula.
+        //Pedindo ao usuário o valor da primeira nota, usei Float pq pode vir um número com vírgula.
         System.out.print("Digite a primeira nota: ");
         float nota1 = teclado.nextFloat();
         //Novamente pedi ao usuário uma nota e usei Float pelo mesmo motivo.

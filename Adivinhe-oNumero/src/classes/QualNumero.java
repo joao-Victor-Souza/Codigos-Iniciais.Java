@@ -72,12 +72,13 @@ public class QualNumero extends javax.swing.JFrame {
         // TODO add your handling code here:
        //Gerando um número aleatório entre 1 e 5 
        double genio = 1 + Math.random() * (5-1);
-       //Não quero número com vírgula, então converti para inteiro.
+       //Não quero número com vírgula, então arredondei para um inteiro.
        int valor = (int) Math.round(genio);
        //Pegando o valor do palpite do usuário.
        int palpite = Integer.parseInt(txtValor.getValue().toString());
        
-       //Apenas pára facilitar eu coloquei as possíveis respostas do gênio aqui.
+       //Apenas para facilitar eu coloquei as possíveis respostas do gênio aqui.
+       //O uso do <html> e <\html> é apenas para formatação.
        String R1 = "<html>ACERTOU!!! </html>";
        String R2 = "<html>ERROU! EU PENSEI NO NÚMERO " + valor + "</html>";
        

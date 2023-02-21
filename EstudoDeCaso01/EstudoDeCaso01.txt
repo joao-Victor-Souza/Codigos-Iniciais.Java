@@ -1,0 +1,5 @@
+Esse projeto foi um trabalho da faculdade que eu fiz no primeiro semestre, é super simples, e a ideia era rodar no terminal mesmo.
+
+Porém eu pretendo voltar nesse projeto mais para frente e refazer tudo, uma vez que está bem feio, muita coisa precisa ser refeita, mas não tinha conhecimento suficiente na época.
+
+Pretendo fazer uma tela para ter uma interação melhor com o usuário, além de usar classes mais adequadas para cada caso, ao invés de apenas usar float em tudo, memso quando não é necessário.

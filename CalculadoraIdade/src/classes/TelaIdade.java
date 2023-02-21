@@ -145,7 +145,8 @@ public class TelaIdade extends javax.swing.JFrame {
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
         // TODO add your handling code here:
-       //Coletando o ano de nascimento digitado pelo usuário.
+      
+        //Coletando o ano de nascimento digitado pelo usuário.
         int anoNascimento = Integer.parseInt(txtAn.getValue().toString());
        //Calculando idade com base no ano atual (Depois alterar para usar como base ano da máquina)
         int idade = 2023- anoNascimento;
@@ -158,6 +159,10 @@ public class TelaIdade extends javax.swing.JFrame {
         lblVoto.setText(voto);
         /*  Um desafio para depois é ao invés de definir um ano específico puxar o ano do pc
         * e trabalhar com isso
+        */
+        /* Outra coisa que precisa ser alterada é o fato de que caso a idade seja inferior a 16 anos
+        * o voto é marcado como obrigatório, mas isso também será corrigido futuramente. 
+        * E sim, no momento me falta conhecimento para tal, mas assim que possível voltarei aqui e resolverei esse problema.
         */
     }//GEN-LAST:event_btnCalcActionPerformed
 

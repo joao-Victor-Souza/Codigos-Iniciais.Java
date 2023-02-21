@@ -1,0 +1,3 @@
+Apenas uma tela java para testar par ou impar.
+
+Novamente será unificado as calculadoras.
