@@ -31,9 +31,26 @@ public class TestesJava01 {
             System.out.println("nao");
         }
         */
+        /*
+        int A = 10;
+        int B = 20;
+        int C = 7;
         
-        System.out.println("km\u00B2");
+        double delta = Math.pow(B, 2) - 4*A*C;
         
+        System.out.println(delta);
+        
+        //System.out.println("km\u00B2");
+        */
+        double delta = -10;
+        
+        if(delta>0){
+            System.out.println("Maior");
+        }else if(delta == 0){
+            System.out.println("igual");
+        }else{
+            System.out.println("menor");
+        }
         
     };
     

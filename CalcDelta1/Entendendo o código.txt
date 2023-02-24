@@ -1,0 +1,15 @@
+Um código um pouco mais complexo do que os anteriores.
+
+Não é dos mais bonitos, porém da para o usuário entender facilmente.
+
+Na tela principal temos 3 spinners que controlam o valor de 3 variáveis da fórmula.
+
+Conforme o valor do spinner muda o valor na fórmula muda, apenas para ficar mais intuitivo.
+
+Por trás temos algumas funções como Math.pow para tornar a exponeciação mais simples.
+
+Como sabia que iria usar a estrutura "IF" resolvi armazenar os textos em variáveis, apenas para facilitar.
+
+Poderia ter resumido em 2 condicionais, porém pela matemática estaria errado, então usei 3.
+
+Possíveis melhorias seriam apenas estéticas, mas considero desnecessário por enquanto.
