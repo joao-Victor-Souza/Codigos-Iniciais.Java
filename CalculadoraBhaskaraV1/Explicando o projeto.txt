@@ -1,0 +1,15 @@
+A ideia inicial era fazer o calculo da formula do delta usando números aleatórios.
+
+Na minha primeira tentativa a IDE já acusou um erro quando tentei fazer o calculo
+usando os valores que ainda seriam gerados, mas mesmo assim fui teimoso e tentei
+forçar usando uma gambiarra, passei pela IDE, mas na hora de rodar bugou.
+
+Dizer que bugou é tirar a culpa de mim e colocar na IDE, mas não é o caso,
+digamos que foi como a IDE imaginou, mesmo separando em botões e criando o armazenamento
+não funcionou.
+
+Não vou desistir, tenho algumas ideias na minha cabeça de como resolver, 
+não sei se vai funcionar, caso nada funcione manterei o projeto arquivado
+no gitHub para se um dia eu conseguir arrumar eu volto e mudo.
+
+Por enquanto isso é tudo, novas atualizações serão postadas nesse documento.
