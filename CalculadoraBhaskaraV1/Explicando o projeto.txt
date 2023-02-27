@@ -13,3 +13,28 @@ não sei se vai funcionar, caso nada funcione manterei o projeto arquivado
 no gitHub para se um dia eu conseguir arrumar eu volto e mudo.
 
 Por enquanto isso é tudo, novas atualizações serão postadas nesse documento.
+********************************
+
+olá de novo.
+
+Dessa vez vim explicar a versão 2.0 desse código.
+
+A minha ideia era calcular a formula delta usando valores aleatórios.
+Mas isso seria muito fácil, então pensei em usar uma estrutura condicional, 
+para automaticamente mudar um dos valores para negativo,
+porém isso me deu muita dor de cabeça.
+
+Uma vez que eu não consigo reatribuir o valor de uma variável já definida,
+e sim eu tentei de várias maneiras, e boa parte delas estavam bugando,
+não sei se por causa da IDE, da linguagem, ou por pura inexperiência minha.
+
+De qualquer forma abandonei essa ideia momentaneamente e apenas fiquei com o básico.
+
+Não desisti da ideia de poder torná-los negativos, mas preciso estudar mais para isso.
+
+Uma observação, colocar os valores em um label e depois puxar para calculos está fora de questão,
+uma vez que isso foi o que consumiu mais de 2h de trabalho.
+
+Mas pretendo estudar maneiras de fazer isso.
+
+Caso descubra que é impossível, deixarei uma nota nesse documento.

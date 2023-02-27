@@ -27,28 +27,24 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        lblB = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        lblA = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        lblC = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         lblDelta = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         lblRaiz = new javax.swing.JLabel();
-        btnNumeros = new javax.swing.JButton();
         btnDelta = new javax.swing.JButton();
+        lblB = new javax.swing.JLabel();
+        lblA = new javax.swing.JLabel();
+        lblC = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel1.setText("<html>&Delta =");
-
-        lblB.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        lblB.setForeground(new java.awt.Color(255, 0, 51));
-        lblB.setText("B");
 
         jLabel3.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel3.setText("- 4 .");
@@ -56,19 +52,13 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel4.setText("<html><sup> 2");
 
-        lblA.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        lblA.setForeground(new java.awt.Color(255, 0, 51));
-        lblA.setText("A");
-
         jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel6.setText(".");
 
-        lblC.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        lblC.setForeground(new java.awt.Color(255, 0, 51));
-        lblC.setText("C");
-
         jLabel8.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("Resultados:");
+        jLabel8.setToolTipText("");
 
         jLabel9.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         jLabel9.setText("<html>&Delta");
@@ -82,14 +72,6 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
         lblRaiz.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         lblRaiz.setText("<VAZIO>");
 
-        btnNumeros.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
-        btnNumeros.setText("E os números?");
-        btnNumeros.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnNumerosActionPerformed(evt);
-            }
-        });
-
         btnDelta.setFont(new java.awt.Font("Arial", 1, 16)); // NOI18N
         btnDelta.setText("<html>Calcular &Delta");
         btnDelta.addActionListener(new java.awt.event.ActionListener() {
@@ -98,32 +80,46 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
             }
         });
 
+        lblB.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        lblB.setForeground(new java.awt.Color(255, 0, 0));
+        lblB.setText("B");
+
+        lblA.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        lblA.setForeground(new java.awt.Color(255, 0, 0));
+        lblA.setText("A");
+
+        lblC.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        lblC.setForeground(new java.awt.Color(255, 0, 0));
+        lblC.setText("C");
+
+        jLabel10.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        jLabel10.setText("= 0");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblRaiz, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblDelta, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(19, 19, 19))
+            .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addGap(123, 123, 123)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGap(103, 103, 103))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 242, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(lblDelta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(lblRaiz, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(143, 143, 143)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGap(24, 24, 24)
+                                .addComponent(btnDelta, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(lblB)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -133,115 +129,84 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
                                 .addComponent(lblA)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(lblC)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(lblC))
-                            .addComponent(btnNumeros, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnDelta))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btnNumeros, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(15, 15, 15)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblB)
-                    .addComponent(jLabel3)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblA)
-                    .addComponent(jLabel6)
-                    .addComponent(lblC)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                    .addComponent(lblB)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel3)
+                        .addComponent(lblA)
+                        .addComponent(jLabel6)
+                        .addComponent(lblC)
+                        .addComponent(jLabel10)))
+                .addGap(35, 35, 35)
                 .addComponent(btnDelta, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34)
+                .addGap(45, 45, 45)
                 .addComponent(jLabel8)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblDelta))
+                    .addComponent(lblDelta, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12)
-                    .addComponent(lblRaiz))
-                .addGap(40, 40, 40))
+                    .addComponent(lblRaiz, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnNumerosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNumerosActionPerformed
+    private void btnDeltaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeltaActionPerformed
         // TODO add your handling code here:
-        //Gerando número aleatório, convertendo para inteiro.
+        
+        // Gerando um número aleatório para a variável A.
+        //Convertendo esse valor para inteiro.
         double A = 0+ Math.random() * (20-0);
         double valorA = Math.round(A);
-        
-        //Gerando mais um número aleatório para definir se o número será positivo ou negativo.
-        double AA = 0+ Math.random()*(1-0);
-        double valorAA = Math.round(AA);
-        
-        /*Condicional super simples, quando o valor gerado for 0 o número que foi gerado antes,
-        * sera considerado um número negativo.
-        * Do contrário, segue positivo.
-        */
-        if(valorAA == 0){
-            lblA.setText(Double.toString(valorA ));
-        }else{
-            lblA.setText(Double.toString(valorA));
-        }
-        //Mesma coisa do bloco anterior, sem comentários aqui.
+               
+       // Gerando um número aleatório para a variável B.
+       //Convertendo esse valor para inteiro.
         double B = 0+ Math.random() * (20-0);
         double valorB = Math.round(B);
         
-        double BB = 0+ Math.random() * (1-0);
-        double valorBB = Math.round(BB);
-        
-        if(valorBB == 0){
-            lblB.setText(Double.toString(valorB ));            
-        }else{
-            lblB.setText(Double.toString(valorB));
-        }
-        
-        //Copiando estrutura para a variável C.
-        
+       
+         // Gerando um número aleatório para a variável C.
+         //Convertendo esse valor para inteiro.
         double C = 0+ Math.random() * (20-0);
         double valorC= Math.round(C);
         
-        double CC = 0+ Math.random() * (1-0);
-        double valorCC = Math.round(CC);
+       
+         //Usando os valores aleatórios para calcular o delta.              
+       double delta = Math.pow(valorB,2) - (4 * valorA * valorC);
         
-        if(valorCC == 0){
-            lblC.setText(Double.toString(valorC ));
-        }else{
-            lblC.setText(Double.toString(valorC));
-        }            
-              
-                
-    }//GEN-LAST:event_btnNumerosActionPerformed
-
-    private void btnDeltaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeltaActionPerformed
-        // TODO add your handling code here:
-        //configurando a parte do calculo do delta.
+       //Exibindo ao usuário os valores usados na fórmula.
+        lblA.setText(Double.toString(valorA));
+        lblB.setText(Double.toString(valorB));
+        lblC.setText(Double.toString(valorC));
         
-       /* 
-        int valorVB =10;
-        int valorVA= 2;
-       int valorVC= 9;
-      */
-         int valorVB = Integer.parseInt(lblB.getText());
-       int valorVA = Integer.parseInt(lblA.getText());
-       int valorVC = Integer.parseInt(lblC.getText());
-        
-        double delta = (Math.pow(valorVB, 2)) - (4 * valorVA * valorVC);
-       // double delta1 = Math.pow(valorVB,2)-(4*valorVA*valorVC);
+        //Exibindo ao usuário o resultado da fórmula do delta.
         lblDelta.setText(Double.toString(delta));
         
+        //usei strings apenas para facilitar na estrutura condicional.
         String Maior="<html> Existem 2 raízes reais. </html>";
         String Igual = "<html> Existem 2 raízes reais iguais.</html>" ;
         String Menor = "<html> Não existem raízes reais.</html>";
         
+        //Estrutura condicional para mostrar a situação do valor delta.
         if(delta>0){
             lblRaiz.setText(Maior);
         }else if(delta == 0){
@@ -289,8 +254,8 @@ public class TelaDeltaV2 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDelta;
-    private javax.swing.JButton btnNumeros;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;

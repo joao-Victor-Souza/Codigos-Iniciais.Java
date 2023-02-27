@@ -15,21 +15,7 @@ public class TestesJava01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         double A = 0+ Math.random() * (20-0);
-         double valorA = Math.round(A);
-        
-        double p = 0+ Math.random() * (1-0);
-        double valorP = Math.round(p);
-        
-       // System.out.println(valorP);
-        if(valorP == 0){
-            System.out.println(valorA * -1);
-        }else{
-            System.out.println(valorA);
-        }
-        
-        //System.out.println(valorA *-1);
-        
+       
     };
     
 };
