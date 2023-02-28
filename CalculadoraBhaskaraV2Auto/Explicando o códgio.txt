@@ -1,0 +1,13 @@
+Esse código é para calcular automaticamente a fórmula de Bhaskara,
+porém usando números aleatórios.
+
+No geral é um código simples, mas como tem o risco de resultar em um NaN, 
+eu criei uma estrutra condicional que lê quando isso acontece,
+e para não exibir um NaN na tela do usuário, o código apenas diz que
+não existem raízes reai.
+
+Ainda tem espaço para melhorar, principalmente na exibição dos números decimais,
+uma vez que estão com muitas casas, pretendo limitar para 2 ou 3.
+
+Mas não consegui fazer isso ainda, então futuramente pretendo voltar e arrumar isso.
+

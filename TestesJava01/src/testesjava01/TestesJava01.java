@@ -15,7 +15,24 @@ public class TestesJava01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       
+       double valorA = 1+ Math.random() * (20-1);
+        double valorAA = Math.round(valorA);
+        
+        double valorB= 1+ Math.random() * (20-1);
+        double valorBB = Math.round(valorB);
+        
+        double valorC = 1+ Math.random()* (20-1);
+        double valorCC = Math.round(valorC);
+        
+        double delta = Math.pow(valorBB, 2) - (4*valorAA * valorCC);
+        
+        double x1 = ((( valorBB * -1) + Math.sqrt(delta)) / (2 * valorAA));
+        
+       if (Double.isNaN(delta)){
+           System.out.print("é um nan");
+       }else{
+           System.out.print("Não é um nan");
+       }
     };
     
 };
