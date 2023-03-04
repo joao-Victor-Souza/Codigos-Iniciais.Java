@@ -4,6 +4,8 @@
  */
 package classes;
 
+import java.time.Year;
+
 /**
  *
  * @author Conta Principal
@@ -28,7 +30,7 @@ public class TelaIdade extends javax.swing.JFrame {
 
         jTextField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-        txtAn = new javax.swing.JSpinner();
+        txtAno = new javax.swing.JSpinner();
         jLabel2 = new javax.swing.JLabel();
         btnCalc = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
@@ -45,7 +47,7 @@ public class TelaIdade extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel1.setText("Ano de nascimento");
 
-        txtAn.setModel(new javax.swing.SpinnerNumberModel(0, null, 3000, 1));
+        txtAno.setModel(new javax.swing.SpinnerNumberModel(0, null, 3000, 1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Design sem nome (1).png"))); // NOI18N
 
@@ -89,7 +91,7 @@ public class TelaIdade extends javax.swing.JFrame {
                                 .addGap(47, 47, 47)
                                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txtAn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtAno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(37, 37, 37))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addContainerGap()
@@ -98,7 +100,7 @@ public class TelaIdade extends javax.swing.JFrame {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -106,7 +108,7 @@ public class TelaIdade extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(lblSituacao, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(lblSituacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -121,11 +123,11 @@ public class TelaIdade extends javax.swing.JFrame {
                         .addGap(22, 22, 22)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtAn, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtAno, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnCalc))
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblIdade))
@@ -137,7 +139,7 @@ public class TelaIdade extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblVoto, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(130, 130, 130))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         pack();
@@ -145,25 +147,42 @@ public class TelaIdade extends javax.swing.JFrame {
 
     private void btnCalcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalcActionPerformed
         // TODO add your handling code here:
-      
-        //Coletando o ano de nascimento digitado pelo usuário.
-        int anoNascimento = Integer.parseInt(txtAn.getValue().toString());
-       //Calculando idade com base no ano atual (Depois alterar para usar como base ano da máquina)
-        int idade = 2023- anoNascimento;
-        lblIdade.setText(Integer.toString(idade));
-       //Analisar se a pessoa é maior ou menor de idade.
-        String situacao = (idade>=18) ? "MAIOR" : "MENOR" ;
-        lblSituacao.setText(situacao);   
-        //Analisar se o direito ao voto é opcional ou obrigatório
-        String voto = ((idade>=16)&& (idade<18) || (idade>70))? "OPICIONAL": "OBRIGATÓRIO";
-        lblVoto.setText(voto);
-        /*  Um desafio para depois é ao invés de definir um ano específico puxar o ano do pc
-        * e trabalhar com isso
-        */
-        /* Outra coisa que precisa ser alterada é o fato de que caso a idade seja inferior a 16 anos
-        * o voto é marcado como obrigatório, mas isso também será corrigido futuramente. 
-        * E sim, no momento me falta conhecimento para tal, mas assim que possível voltarei aqui e resolverei esse problema.
-        */
+        
+        //Pegando qual é o ano atual do sistema.
+        int anoA = Year.now().getValue();
+        
+        //Coletando o ano de nascimento do usuário.
+        int nasceu = Integer.parseInt(txtAno.getValue().toString());
+        
+        //Calculando idade.
+        int idade = anoA - nasceu;
+        
+        //Exibindo a idade caluclada anteriormente.
+        lblIdade.setText(String.valueOf(idade));
+        
+        //Analisando se a pessoa é maior de idade ou não.
+        if (idade > 18){
+            lblSituacao.setText("Maior de idade!");
+        }else {
+            lblSituacao.setText("Menor de idade!");
+        }
+        
+        //Coloquei as strings antes apenas para facilitar
+        String opcional = ("<html> O voto é opicional! </html>");
+        String obrigatorio = ("<html> O voto é Obrigatório! </html>");
+        String proibido = ("<html> O voto é proibido </html>");
+        
+        //Analisando direito ao voto.
+        if (idade >= 16 && idade<18 ){
+            lblVoto.setText(opcional);
+        }else if (idade >= 18 && idade<70){
+            lblVoto.setText(obrigatorio);            
+        }else if (idade < 16){
+            lblVoto.setText(proibido);
+        }else {
+            lblVoto.setText(opcional);
+        }
+                      
     }//GEN-LAST:event_btnCalcActionPerformed
 
     /**
@@ -212,6 +231,6 @@ public class TelaIdade extends javax.swing.JFrame {
     private javax.swing.JLabel lblIdade;
     private javax.swing.JLabel lblSituacao;
     private javax.swing.JLabel lblVoto;
-    private javax.swing.JSpinner txtAn;
+    private javax.swing.JSpinner txtAno;
     // End of variables declaration//GEN-END:variables
 }

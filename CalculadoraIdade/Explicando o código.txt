@@ -1,5 +1,7 @@
-Um código também simples, esse aqui se foca em ser uma calculadora de idade, funciona de forma super simples, mas tem uma interface até que bem amigável ao usuário, isso claro dentro das minhas limitações no momento.
+Um código também simples, esse aqui se foca em ser uma calculadora de idade, 
+funciona de forma super simples, mas tem uma interface até que bem amigável ao usuário, 
+isso claro dentro das minhas limitações no momento.
 
-Além da idade esse programa chega e diz ao usuário se o seu direito ao voto é opcional ou obrigatório.
+Além da idade esse programa chega e diz ao usuário se o seu direito ao voto é:
+Opcional, Obrigatório ou se está proibido de votar.
 
-Algumas melhorias são pegar o ano diretamente do sistema, e trabalhar com o problema de quando a idade é inferior a 16 anos precisa aparecer uma mensagem dizendo que o voto é proibido, mas será resolvido futuramente.

@@ -38,7 +38,7 @@
                               <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                               <Component id="jLabel1" min="-2" pref="219" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="txtAn" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAno" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
@@ -51,7 +51,7 @@
                   </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="jLabel3" min="-2" pref="63" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
@@ -60,7 +60,7 @@
                           <Group type="102" attributes="0">
                               <Component id="jLabel4" min="-2" pref="92" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="lblSituacao" min="-2" pref="92" max="-2" attributes="0"/>
+                              <Component id="lblSituacao" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="jLabel5" min="-2" pref="61" max="-2" attributes="0"/>
@@ -82,14 +82,14 @@
                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel1" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
-                          <Component id="txtAn" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="txtAno" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="btnCalc" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="jLabel2" alignment="0" min="-2" pref="110" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                   <Component id="lblIdade" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -104,7 +104,7 @@
                   <Component id="jLabel5" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                   <Component id="lblVoto" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -118,7 +118,7 @@
         <Property name="text" type="java.lang.String" value="Ano de nascimento"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JSpinner" name="txtAn">
+    <Component class="javax.swing.JSpinner" name="txtAno">
       <Properties>
         <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
           <SpinnerModel initial="0" maximum="3000" numberType="java.lang.Integer" stepSize="1" type="number"/>
