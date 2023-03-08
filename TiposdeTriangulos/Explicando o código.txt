@@ -1,0 +1,15 @@
+Dessa vez o código foi um pouquinho mais complexo, afinal tive que trabalhar com
+leis de formação de triângulos.
+
+Um problema que eu tive foi em relação a valores que não formam um triângulo, 
+deixar essa variável para o final estava sendo muito trabalhoso, então resolvi 
+passar ela para primeira checagem.
+
+Pórem isso não resolveu tudo, algumas vezes o programa acusava que não era possível
+criar um triângulo, mas exibia que aqueles eram valores de um triângulo isósceles
+ou escaleno, a depender dos valores, então apenas mudei a visibilidade da String
+que falava sobre o tipo do triângulo, deixando visível apenas quando formasse um triângulo válido.
+
+Fora isso o programa funciona perfeitamente.
+
+Ps: Melhorias visuais seriam bem vindas, mas sou péssimo com edição de imagem, então ficará assim mesmo.
