@@ -1,0 +1,10 @@
+Código simples, também ligado a qualidade de vida.
+
+O foco dessa vez é ser calcular automaticamente a fórmula de torricelli.
+
+Eu tive alguns problemas quanto a exibição, queria redizir as casas decimais do valor final, 
+porém não vou arredondar pois causaria erros, quero apenas ocultar algumas casas decimais por estética.
+
+Provavelmente isso será resolvido na versão final onde estará junto com outras fórmulas físicas.
+
+Quando isso acontecer notifico nesse arquivo de texto. 
