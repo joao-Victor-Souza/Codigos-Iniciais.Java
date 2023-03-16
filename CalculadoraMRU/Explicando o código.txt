@@ -1,0 +1,4 @@
+Um código simples para calcular o espaço percorrido tendo como base a fórmula
+do movimento retilíneo uniforme.
+
+Não tem nada de especial, é mais um código para a lista de coisas úteis para se ter.
