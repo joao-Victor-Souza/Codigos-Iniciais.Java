@@ -1,0 +1,7 @@
+Um código um pouco mais complexo dessa vez, mas isso por causa da fórmula.
+
+Fiz um programa para calcular a Fórmula do Movimento Retilíneo uniformemente variado.
+
+E esse também entra para a lista dos utilidade pública.
+
+Futuramente todos serão unificados em um único aplicativo.
