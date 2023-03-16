@@ -1,0 +1,6 @@
+Um código simples também, usei while para fazer o calculo de um fatorial.
+
+Uma coisa diferente desse código em relação aos outros que usem números inteiros.
+Nesse eu fui obrigado a usar o double ao invés de int, isso porque usando int
+eu estaria limitado ao fatorial do número 12, porque depois disso o resultado 
+fica tão grande que não é possível armazenar como um int, já com double não tenho esse problema.
