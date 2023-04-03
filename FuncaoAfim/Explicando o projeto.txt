@@ -1,0 +1,5 @@
+Programa criado uando jdk versão 19.0.1;
+
+Programa simples, focado em calcular a função afim;
+
+Mais um programa que faz parte da lista de componentes de um projeto futuro.
