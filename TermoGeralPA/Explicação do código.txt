@@ -1,0 +1,7 @@
+Programa criado uando jdk versão 19.0.1;
+
+Programa simples, focado em calcular o termo geral da progressão aritimética;
+
+Nenhuma dificuldade na construção;
+
+Esse projeto faz parte de um projeto maior;
