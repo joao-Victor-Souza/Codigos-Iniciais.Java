@@ -1,0 +1,7 @@
+Programa criado uando jdk versão 19.0.1;
+
+Programa símples, focado em calcular a soma de uma progressão aritimética finita;
+
+Nenhuma dificuldade durante a criação;
+
+Mais uma parte de um projeto futuro;
