@@ -1,0 +1,15 @@
+Programa criado uando jdk versão 19.0.1;
+
+Programa simples, focado em calcular A soma de uma PG finita;
+
+Alguns comentários interessante sobre a construção;
+
+Primeiro e mais visível é o fato de que a interface com o usuário apesar de funcional não é das mais bonitas;
+
+Porém nesse momento meu foco é fazer funcionar, beleza será implementada na versão final;
+
+Novamente optei por quebrar a fórmula em mais de uma linha, isso não muda nada para o usuário, mas muda para o programador ler mais fácil;
+
+Além disso não tive nenhum outro problema que seja necessário relatar;
+
+Esse projeto faz parte de um projeto maior;
