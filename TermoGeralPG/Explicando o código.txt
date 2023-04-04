@@ -1,0 +1,18 @@
+Programa criado uando jdk versão 19.0.1;
+
+Programa simples focado em calcular o termo geral da progressão geometrica;
+
+Alguns comentários interessantes sobre a construção:
+
+A fórmula em sí não é complexa, porém para facilitar a visualização, optei por quebrar em blocos menores;
+
+Como por exempo, reduzir em 1 o valor N para facilitar o calculo;
+
+calcular primeiro o expoente para só depois aplicar na fórmula;
+
+No geral nada disso é necessário, e não afeta a experiência do usuário,
+porém afeta diretamente o programador, então optei por fazer isso;
+
+E sim, consome mais linhas, mas isso não é um caderno, então as linhas não vão acabar;
+
+Esse projeto faz parte de um projeto maior;
